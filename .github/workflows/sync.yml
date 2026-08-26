@@ -1,0 +1,55 @@
+name: Sync intervals.icu
+
+on:
+  schedule:
+    # 04:20 UTC = 06:20 dansk sommertid, 05:20 dansk vintertid.
+    # GitHub Actions cron er altid UTC.
+    - cron: "20 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: intervals-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Hent data fra intervals.icu
+        env:
+          INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
+          INTERVALS_ATHLETE_ID: ${{ secrets.INTERVALS_ATHLETE_ID }}
+        run: python scripts/fetch_intervals.py
+
+      - name: Krypter payload
+        env:
+          DATA_PASSPHRASE: ${{ secrets.DATA_PASSPHRASE }}
+        run: |
+          set -euo pipefail
+          mkdir -p data
+          openssl enc -aes-256-cbc -pbkdf2 -iter 200000 -salt -base64 -A \
+            -pass "env:DATA_PASSPHRASE" \
+            -in build/payload.json.gz -out data/latest.enc
+          ls -l data/
+
+      - name: Commit
+        run: |
+          set -euo pipefail
+          git config user.name "marathon-sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/latest.enc data/status.json
+          if git diff --staged --quiet; then
+            echo "Ingen aendringer"
+          else
+            git commit -m "sync $(date -u +%Y-%m-%d)"
+            git push
+          fi
