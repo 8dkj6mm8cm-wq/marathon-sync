@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-22T04:29:46+00:00",
+  "generated_at": "2026-09-22T18:35:24+00:00",
   "calls": [
     {
       "label": "athlete",
       "path": "/athlete/i669726",
       "params": {},
       "http": 200,
-      "bytes": 14362,
+      "bytes": 15079,
       "count": 1
     },
     {
@@ -17,8 +17,8 @@
         "newest": "2026-09-22"
       },
       "http": 200,
-      "bytes": 225860,
-      "count": 52
+      "bytes": 231673,
+      "count": 53
     },
     {
       "label": "events",
@@ -28,7 +28,7 @@
         "newest": "2026-10-27"
       },
       "http": 200,
-      "bytes": 44931,
+      "bytes": 44939,
       "count": 25
     },
     {
@@ -44,12 +44,22 @@
     },
     {
       "label": "activity_detail",
+      "path": "/activity/i189287352",
+      "params": {
+        "intervals": "true"
+      },
+      "http": 200,
+      "bytes": 19167,
+      "count": 1
+    },
+    {
+      "label": "activity_detail",
       "path": "/activity/i188569352",
       "params": {
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 4183,
+      "bytes": 4210,
       "count": 1
     },
     {
@@ -59,7 +69,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 26525,
+      "bytes": 26552,
       "count": 1
     },
     {
@@ -69,7 +79,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 17212,
+      "bytes": 17239,
       "count": 1
     },
     {
@@ -79,7 +89,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 24539,
+      "bytes": 24566,
       "count": 1
     },
     {
@@ -89,7 +99,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 19097,
+      "bytes": 19124,
       "count": 1
     },
     {
@@ -99,7 +109,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 28372,
+      "bytes": 28399,
       "count": 1
     },
     {
@@ -109,7 +119,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 19079,
+      "bytes": 19106,
       "count": 1
     },
     {
@@ -119,7 +129,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 11538,
+      "bytes": 11565,
       "count": 1
     },
     {
@@ -129,7 +139,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 16919,
+      "bytes": 16946,
       "count": 1
     },
     {
@@ -139,7 +149,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 9665,
+      "bytes": 9692,
       "count": 1
     },
     {
@@ -149,7 +159,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 30245,
+      "bytes": 30272,
       "count": 1
     },
     {
@@ -159,7 +169,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 11588,
+      "bytes": 11615,
       "count": 1
     },
     {
@@ -169,7 +179,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 19075,
+      "bytes": 19102,
       "count": 1
     },
     {
@@ -179,7 +189,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 19119,
+      "bytes": 19146,
       "count": 1
     }
   ],
@@ -519,6 +529,7 @@
       "strava_id",
       "stream_types",
       "sub_type",
+      "submax_fatigue_test",
       "tags",
       "tailwind_percent",
       "threshold_pace",
@@ -818,6 +829,7 @@
       "strava_id",
       "stream_types",
       "sub_type",
+      "submax_fatigue_test",
       "tags",
       "tailwind_percent",
       "threshold_pace",
@@ -834,12 +846,12 @@
     ]
   },
   "summary": {
-    "activities": 52,
+    "activities": 53,
     "events": 25,
     "wellness": 241,
-    "activity_detail": 14,
+    "activity_detail": 15,
     "athlete_ok": true,
-    "payload_bytes": 45803
+    "payload_bytes": 47491
   },
   "all_ok": true
 }
