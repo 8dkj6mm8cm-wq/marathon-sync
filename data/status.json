@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:10:57+00:00",
+  "generated_at": "2026-10-08T11:25:06+00:00",
   "calls": [
     {
       "label": "athlete",
@@ -13,34 +13,44 @@
       "label": "activities",
       "path": "/athlete/i669726/activities",
       "params": {
-        "oldest": "2026-02-09",
-        "newest": "2026-10-07"
+        "oldest": "2026-02-10",
+        "newest": "2026-10-08"
       },
       "http": 200,
-      "bytes": 478225,
-      "count": 112
+      "bytes": 482607,
+      "count": 113
     },
     {
       "label": "events",
       "path": "/athlete/i669726/events",
       "params": {
-        "oldest": "2026-09-02",
-        "newest": "2026-11-11"
+        "oldest": "2026-09-03",
+        "newest": "2026-11-12"
       },
       "http": 200,
-      "bytes": 66242,
-      "count": 33
+      "bytes": 68364,
+      "count": 34
     },
     {
       "label": "wellness",
       "path": "/athlete/i669726/wellness",
       "params": {
-        "oldest": "2026-02-09",
-        "newest": "2026-10-07"
+        "oldest": "2026-02-10",
+        "newest": "2026-10-08"
       },
       "http": 200,
-      "bytes": 212250,
+      "bytes": 212248,
       "count": 241
+    },
+    {
+      "label": "activity_detail",
+      "path": "/activity/i194917944",
+      "params": {
+        "intervals": "true"
+      },
+      "http": 200,
+      "bytes": 17042,
+      "count": 1
     },
     {
       "label": "activity_detail",
@@ -150,16 +160,6 @@
       },
       "http": 200,
       "bytes": 17239,
-      "count": 1
-    },
-    {
-      "label": "activity_detail",
-      "path": "/activity/i187374239",
-      "params": {
-        "intervals": "true"
-      },
-      "http": 200,
-      "bytes": 24566,
       "count": 1
     }
   ],
@@ -817,12 +817,12 @@
     ]
   },
   "summary": {
-    "activities": 112,
-    "events": 33,
+    "activities": 113,
+    "events": 34,
     "wellness": 241,
     "activity_detail": 12,
     "athlete_ok": true,
-    "payload_bytes": 60677
+    "payload_bytes": 60670
   },
   "all_ok": true
 }
