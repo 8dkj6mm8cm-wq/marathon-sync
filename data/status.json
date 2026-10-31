@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T22:28:55+00:00",
+  "generated_at": "2026-10-31T10:25:44+00:00",
   "calls": [
     {
       "label": "athlete",
@@ -13,8 +13,8 @@
       "label": "activities",
       "path": "/athlete/i669726/activities",
       "params": {
-        "oldest": "2026-03-04",
-        "newest": "2026-10-30"
+        "oldest": "2026-03-05",
+        "newest": "2026-10-31"
       },
       "http": 200,
       "bytes": 565304,
@@ -24,8 +24,8 @@
       "label": "events",
       "path": "/athlete/i669726/events",
       "params": {
-        "oldest": "2026-09-25",
-        "newest": "2026-12-04"
+        "oldest": "2026-09-26",
+        "newest": "2026-12-05"
       },
       "http": 200,
       "bytes": 87767,
@@ -35,11 +35,11 @@
       "label": "wellness",
       "path": "/athlete/i669726/wellness",
       "params": {
-        "oldest": "2026-03-04",
-        "newest": "2026-10-30"
+        "oldest": "2026-03-05",
+        "newest": "2026-10-31"
       },
       "http": 200,
-      "bytes": 212206,
+      "bytes": 212203,
       "count": 241
     },
     {
@@ -160,36 +160,6 @@
       },
       "http": 200,
       "bytes": 26614,
-      "count": 1
-    },
-    {
-      "label": "activity_detail",
-      "path": "/activity/i195477939",
-      "params": {
-        "intervals": "true"
-      },
-      "http": 200,
-      "bytes": 11610,
-      "count": 1
-    },
-    {
-      "label": "activity_detail",
-      "path": "/activity/i195477883",
-      "params": {
-        "intervals": "true"
-      },
-      "http": 200,
-      "bytes": 19305,
-      "count": 1
-    },
-    {
-      "label": "activity_detail",
-      "path": "/activity/i195448977",
-      "params": {
-        "intervals": "true"
-      },
-      "http": 200,
-      "bytes": 17096,
       "count": 1
     }
   ],
@@ -850,9 +820,9 @@
     "activities": 132,
     "events": 40,
     "wellness": 241,
-    "activity_detail": 15,
+    "activity_detail": 12,
     "athlete_ok": true,
-    "payload_bytes": 77327
+    "payload_bytes": 74557
   },
   "all_ok": true
 }
