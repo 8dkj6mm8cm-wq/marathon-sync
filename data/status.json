@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:26:47+00:00",
+  "generated_at": "2026-11-05T23:42:14+00:00",
   "calls": [
     {
       "label": "athlete",
@@ -832,7 +832,7 @@
     "wellness": 241,
     "activity_detail": 13,
     "athlete_ok": true,
-    "payload_bytes": 82789
+    "payload_bytes": 82787
   },
   "all_ok": true
 }
