@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T22:15:25+00:00",
+  "generated_at": "2026-11-09T12:57:38+00:00",
   "calls": [
     {
       "label": "athlete",
@@ -13,34 +13,44 @@
       "label": "activities",
       "path": "/athlete/i669726/activities",
       "params": {
-        "oldest": "2026-03-13",
-        "newest": "2026-11-08"
+        "oldest": "2026-03-14",
+        "newest": "2026-11-09"
       },
       "http": 200,
-      "bytes": 600150,
-      "count": 140
+      "bytes": 604603,
+      "count": 141
     },
     {
       "label": "events",
       "path": "/athlete/i669726/events",
       "params": {
-        "oldest": "2026-10-04",
-        "newest": "2026-12-13"
+        "oldest": "2026-10-05",
+        "newest": "2026-12-14"
       },
       "http": 200,
-      "bytes": 108682,
+      "bytes": 108687,
       "count": 44
     },
     {
       "label": "wellness",
       "path": "/athlete/i669726/wellness",
       "params": {
-        "oldest": "2026-03-13",
-        "newest": "2026-11-08"
+        "oldest": "2026-03-14",
+        "newest": "2026-11-09"
       },
       "http": 200,
-      "bytes": 212195,
+      "bytes": 212194,
       "count": 241
+    },
+    {
+      "label": "activity_detail",
+      "path": "/activity/i207675646",
+      "params": {
+        "intervals": "true"
+      },
+      "http": 200,
+      "bytes": 19340,
+      "count": 1
     },
     {
       "label": "activity_detail",
@@ -49,7 +59,7 @@
         "intervals": "true"
       },
       "http": 200,
-      "bytes": 32379,
+      "bytes": 32380,
       "count": 1
     },
     {
@@ -160,16 +170,6 @@
       },
       "http": 200,
       "bytes": 26390,
-      "count": 1
-    },
-    {
-      "label": "activity_detail",
-      "path": "/activity/i198714279",
-      "params": {
-        "intervals": "true"
-      },
-      "http": 200,
-      "bytes": 37941,
       "count": 1
     }
   ],
@@ -827,12 +827,12 @@
     ]
   },
   "summary": {
-    "activities": 140,
+    "activities": 141,
     "events": 44,
     "wellness": 241,
     "activity_detail": 13,
     "athlete_ok": true,
-    "payload_bytes": 83550
+    "payload_bytes": 82623
   },
   "all_ok": true
 }
