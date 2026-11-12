@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-12T00:49:43+00:00",
+  "generated_at": "2026-11-12T12:49:47+00:00",
   "calls": [
     {
       "label": "athlete",
       "path": "/athlete/i669726",
       "params": {},
       "http": 200,
-      "bytes": 15314,
+      "bytes": 15343,
       "count": 1
     },
     {
@@ -199,6 +199,7 @@
       "email_notifications",
       "fahrenheit",
       "firstname",
+      "follower_api_access",
       "garmin_pace_range",
       "garmin_power_target",
       "garmin_sync_activity_types",
@@ -832,7 +833,7 @@
     "wellness": 241,
     "activity_detail": 13,
     "athlete_ok": true,
-    "payload_bytes": 81786
+    "payload_bytes": 81797
   },
   "all_ok": true
 }
