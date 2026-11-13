@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:17:53+00:00",
+  "generated_at": "2026-11-13T23:40:39+00:00",
   "calls": [
     {
       "label": "athlete",
@@ -17,8 +17,8 @@
         "newest": "2026-11-13"
       },
       "http": 200,
-      "bytes": 618129,
-      "count": 144
+      "bytes": 622275,
+      "count": 145
     },
     {
       "label": "events",
@@ -838,12 +838,12 @@
     ]
   },
   "summary": {
-    "activities": 144,
+    "activities": 145,
     "events": 46,
     "wellness": 241,
     "activity_detail": 14,
     "athlete_ok": true,
-    "payload_bytes": 86405
+    "payload_bytes": 86532
   },
   "all_ok": true
 }
