@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T13:32:25+00:00",
+  "generated_at": "2026-11-18T01:01:10+00:00",
   "calls": [
     {
       "label": "athlete",
@@ -13,33 +13,33 @@
       "label": "activities",
       "path": "/athlete/i669726/activities",
       "params": {
-        "oldest": "2026-03-22",
-        "newest": "2026-11-17"
+        "oldest": "2026-03-23",
+        "newest": "2026-11-18"
       },
       "http": 200,
-      "bytes": 626933,
+      "bytes": 626623,
       "count": 146
     },
     {
       "label": "events",
       "path": "/athlete/i669726/events",
       "params": {
-        "oldest": "2026-10-13",
-        "newest": "2026-12-22"
+        "oldest": "2026-10-14",
+        "newest": "2026-12-23"
       },
       "http": 200,
-      "bytes": 115965,
+      "bytes": 116196,
       "count": 46
     },
     {
       "label": "wellness",
       "path": "/athlete/i669726/wellness",
       "params": {
-        "oldest": "2026-03-22",
-        "newest": "2026-11-17"
+        "oldest": "2026-03-23",
+        "newest": "2026-11-18"
       },
       "http": 200,
-      "bytes": 212187,
+      "bytes": 212193,
       "count": 241
     },
     {
@@ -170,16 +170,6 @@
       },
       "http": 200,
       "bytes": 43283,
-      "count": 1
-    },
-    {
-      "label": "activity_detail",
-      "path": "/activity/i202385235",
-      "params": {
-        "intervals": "true"
-      },
-      "http": 200,
-      "bytes": 22780,
       "count": 1
     }
   ],
@@ -841,9 +831,9 @@
     "activities": 146,
     "events": 46,
     "wellness": 241,
-    "activity_detail": 14,
+    "activity_detail": 13,
     "athlete_ok": true,
-    "payload_bytes": 87790
+    "payload_bytes": 84631
   },
   "all_ok": true
 }
