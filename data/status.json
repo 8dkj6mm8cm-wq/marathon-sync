@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:01:23+00:00",
+  "generated_at": "2026-11-21T00:01:42+00:00",
   "calls": [
     {
       "label": "athlete",
@@ -13,34 +13,54 @@
       "label": "activities",
       "path": "/athlete/i669726/activities",
       "params": {
-        "oldest": "2026-03-25",
-        "newest": "2026-11-20"
+        "oldest": "2026-03-26",
+        "newest": "2026-11-21"
       },
       "http": 200,
-      "bytes": 635784,
-      "count": 148
+      "bytes": 644652,
+      "count": 150
     },
     {
       "label": "events",
       "path": "/athlete/i669726/events",
       "params": {
-        "oldest": "2026-10-16",
-        "newest": "2026-12-25"
+        "oldest": "2026-10-17",
+        "newest": "2026-12-26"
       },
       "http": 200,
-      "bytes": 119613,
-      "count": 47
+      "bytes": 117219,
+      "count": 46
     },
     {
       "label": "wellness",
       "path": "/athlete/i669726/wellness",
       "params": {
-        "oldest": "2026-03-25",
-        "newest": "2026-11-20"
+        "oldest": "2026-03-26",
+        "newest": "2026-11-21"
       },
       "http": 200,
-      "bytes": 212196,
+      "bytes": 212194,
       "count": 241
+    },
+    {
+      "label": "activity_detail",
+      "path": "/activity/i212587659",
+      "params": {
+        "intervals": "true"
+      },
+      "http": 200,
+      "bytes": 24791,
+      "count": 1
+    },
+    {
+      "label": "activity_detail",
+      "path": "/activity/i212587605",
+      "params": {
+        "intervals": "true"
+      },
+      "http": 200,
+      "bytes": 11614,
+      "count": 1
     },
     {
       "label": "activity_detail",
@@ -170,16 +190,6 @@
       },
       "http": 200,
       "bytes": 41633,
-      "count": 1
-    },
-    {
-      "label": "activity_detail",
-      "path": "/activity/i203435694",
-      "params": {
-        "intervals": "true"
-      },
-      "http": 200,
-      "bytes": 22738,
       "count": 1
     }
   ],
@@ -838,12 +848,12 @@
     ]
   },
   "summary": {
-    "activities": 148,
-    "events": 47,
+    "activities": 150,
+    "events": 46,
     "wellness": 241,
-    "activity_detail": 14,
+    "activity_detail": 15,
     "athlete_ok": true,
-    "payload_bytes": 88947
+    "payload_bytes": 88963
   },
   "all_ok": true
 }
